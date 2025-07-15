@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Test Cases"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="56.184">
+  <properties />
+  
+  
+            <testcase name="validateSauceLogin" time="8.972" classname="org.training.selenium.tests.LoginTest" />
+                <testcase name="validateSauceLogin" time="13.188" classname="org.training.selenium.tests.LoginTest" />
+                <testcase name="validateSauceLogin" time="8.460" classname="org.training.selenium.tests.LoginTest" />
+                <testcase name="validateSauceLogin" time="7.855" classname="org.training.selenium.tests.LoginTest" />
+                <testcase name="validateSauceLogin" time="8.731" classname="org.training.selenium.tests.LoginTest" />
+                <testcase name="validateSauceLogin" time="8.978" classname="org.training.selenium.tests.LoginTest" />
+      
+</testsuite>
