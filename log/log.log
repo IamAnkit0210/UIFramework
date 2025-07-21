@@ -1,0 +1,167 @@
+21/Jul/2025 19:51:42,752- BaseScript: Chrome browser launched.
+21/Jul/2025 19:51:42,861- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:51:42,895- Listeners: Test STARTED: TC01_validateCartProductAdd
+21/Jul/2025 19:51:44,194- LoginPage: Entering username: standard_user
+21/Jul/2025 19:51:44,561- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:51:44,786- LoginPage: Clicking on Login button
+21/Jul/2025 19:51:45,869- Listeners: Test SKIPPED: TC01_validateCartProductAdd
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3fbf688f55ef657b1e2da5f5a76ab481, clickElement {id=f.1F5A6A682194BCFFCD34AF05511F3336.d.11D7247F2830BDCBB6FA870DD3E92B43.e.36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50212/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (3fbf688f55ef657b1e2da5f5a76ab481)] -> xpath: //div[@class='inventory_item_description']]] -> tag name: button]
+Session ID: 3fbf688f55ef657b1e2da5f5a76ab481
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.training.selenium.pages.ProductPage.addProductToCart(ProductPage.java:48)
+	at org.training.selenium.tests.CartTest.TC01_validateCartProductAdd(CartTest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+21/Jul/2025 19:51:47,737- BaseScript: Browser session closed.
+21/Jul/2025 19:51:47,741- BaseScript: Launching the application...
+21/Jul/2025 19:51:50,883- BaseScript: Chrome browser launched.
+21/Jul/2025 19:51:50,980- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:51:50,982- Listeners: Test STARTED: TC01_validateCartProductAdd
+21/Jul/2025 19:51:52,544- LoginPage: Entering username: standard_user
+21/Jul/2025 19:51:53,347- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:51:53,587- LoginPage: Clicking on Login button
+21/Jul/2025 19:51:54,683- Listeners: Test FAILED: TC01_validateCartProductAdd
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.158)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79a6ddac851ac66fa4d29c7bb05cd56b, clickElement {id=f.9A8865B8CEE9F40EEDCDF7BEF3F73C2F.d.5006F0FF675E32B85D179CC6DCA6B5A0.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50243/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (79a6ddac851ac66fa4d29c7bb05cd56b)] -> xpath: //div[@class='inventory_item_description']]] -> tag name: button]
+Session ID: 79a6ddac851ac66fa4d29c7bb05cd56b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.training.selenium.pages.ProductPage.addProductToCart(ProductPage.java:48)
+	at org.training.selenium.tests.CartTest.TC01_validateCartProductAdd(CartTest.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+21/Jul/2025 19:51:54,964- BaseScript: Screenshot saved: C:\UI\UiFramework\reports\TC01_validateCartProductAdd_20250721_195154.png
+21/Jul/2025 19:51:54,970- Listeners: Screenshot saved at: C:\UI\UiFramework\reports\TC01_validateCartProductAdd_20250721_195154.png
+21/Jul/2025 19:51:56,575- BaseScript: Browser session closed.
+21/Jul/2025 19:51:56,585- Listeners: Test Suite FINISHED: Cart Test Cases
+21/Jul/2025 19:51:57,681- BaseScript: Launching the application...
+21/Jul/2025 19:51:59,504- BaseScript: Chrome browser launched.
+21/Jul/2025 19:51:59,582- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:51:59,586- Listeners: Test STARTED: validateSauceLogin
+21/Jul/2025 19:52:00,321- LoginPage: Entering username: standard_user
+21/Jul/2025 19:52:00,590- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:52:00,783- LoginPage: Clicking on Login button
+21/Jul/2025 19:52:03,312- BaseScript: Browser session closed.
+21/Jul/2025 19:52:03,316- BaseScript: Launching the application...
+21/Jul/2025 19:52:05,107- BaseScript: Chrome browser launched.
+21/Jul/2025 19:52:05,192- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:52:05,194- Listeners: Test STARTED: validateSauceLogin
+21/Jul/2025 19:52:06,024- LoginPage: Entering username: locked_out_user
+21/Jul/2025 19:52:06,313- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:52:06,571- LoginPage: Clicking on Login button
+21/Jul/2025 19:52:07,852- BaseScript: Browser session closed.
+21/Jul/2025 19:52:07,855- BaseScript: Launching the application...
+21/Jul/2025 19:52:09,694- BaseScript: Chrome browser launched.
+21/Jul/2025 19:52:09,794- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:52:09,796- Listeners: Test STARTED: validateSauceLogin
+21/Jul/2025 19:52:10,607- LoginPage: Entering username: problem_user
+21/Jul/2025 19:52:10,908- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:52:11,109- LoginPage: Clicking on Login button
+21/Jul/2025 19:52:12,560- BaseScript: Browser session closed.
+21/Jul/2025 19:52:12,563- BaseScript: Launching the application...
+21/Jul/2025 19:52:14,853- BaseScript: Chrome browser launched.
+21/Jul/2025 19:52:14,970- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:52:14,972- Listeners: Test STARTED: validateSauceLogin
+21/Jul/2025 19:52:15,863- LoginPage: Entering username: performance_glitch_user
+21/Jul/2025 19:52:16,192- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:52:16,419- LoginPage: Clicking on Login button
+21/Jul/2025 19:52:23,404- BaseScript: Browser session closed.
+21/Jul/2025 19:52:23,407- BaseScript: Launching the application...
+21/Jul/2025 19:52:31,074- BaseScript: Chrome browser launched.
+21/Jul/2025 19:52:31,156- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:52:31,157- Listeners: Test STARTED: validateSauceLogin
+21/Jul/2025 19:52:31,930- LoginPage: Entering username: error_user
+21/Jul/2025 19:52:32,117- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:52:32,269- LoginPage: Clicking on Login button
+21/Jul/2025 19:52:33,071- BaseScript: Browser session closed.
+21/Jul/2025 19:52:33,076- BaseScript: Launching the application...
+21/Jul/2025 19:52:34,935- BaseScript: Chrome browser launched.
+21/Jul/2025 19:52:35,042- BaseScript: Browser maximized and implicit wait set.
+21/Jul/2025 19:52:35,044- Listeners: Test STARTED: validateSauceLogin
+21/Jul/2025 19:52:35,970- LoginPage: Entering username: visual_user
+21/Jul/2025 19:52:36,163- LoginPage: Entering password (masked for security)
+21/Jul/2025 19:52:36,325- LoginPage: Clicking on Login button
+21/Jul/2025 19:52:38,332- BaseScript: Browser session closed.
+21/Jul/2025 19:52:38,333- Listeners: Test Suite FINISHED: Login Test Cases

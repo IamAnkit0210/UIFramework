@@ -1,4 +1,4 @@
-package util;
+package org.training.selenium.util;
 
 public class Constants {
     public static final String PRODUCT_NAME = "Sauce Labs Backpack";

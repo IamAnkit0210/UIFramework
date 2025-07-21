@@ -3,17 +3,16 @@
 
 <suite name="Sauce Demo Smoke Suite" allow-return-values="true">
   <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.training.selenium.base.Listeners"/>
   </listeners>
 
-  <test name="Cart Test Cases">
+  <test name="Cart Test Cases" thread-count="5">
     <classes>
       <class name="org.training.selenium.tests.CartTest"/>
     </classes>
   </test>
 
-  <test name="Login Test Cases">
+  <test name="Login Test Cases" thread-count="5">
     <classes>
       <class name="org.training.selenium.tests.LoginTest"/>
     </classes>

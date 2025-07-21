@@ -1,4 +1,4 @@
-package util;
+package org.training.selenium.util;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

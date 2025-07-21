@@ -19,7 +19,7 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Element: [[[[ChromeDriver: chrome on mac (e9071c3107b61a79f87ebb59ab4e8187)] -&gt; xpath: //div[@class=&apos;inventory_item_description&apos;]]] -&gt; tag name: button]
 Session ID: e9071c3107b61a79f87ebb59ab4e8187"
               >
-<![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+                    <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
   (Session info: chrome=138.0.7204.93)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
@@ -41,7 +41,7 @@ Session ID: e9071c3107b61a79f87ebb59ab4e8187
   org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
   org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
   org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-  pages.ProductPage.addProductToCart(ProductPage.java:48)
+  org.training.selenium.pages.ProductPage.addProductToCart(ProductPage.java:48)
   org.training.selenium.tests.CartTest.validateCartProductAdd(CartTest.java:31)
   java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
   java.base/java.lang.reflect.Method.invoke(Method.java:577)
@@ -65,7 +65,7 @@ Session ID: e9071c3107b61a79f87ebb59ab4e8187
   com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
   com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 ]]>
-      </failure>
+                </failure>
 
           </testcase>
   

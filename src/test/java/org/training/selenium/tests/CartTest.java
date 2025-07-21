@@ -4,11 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.training.selenium.base.BaseScript;
-import pages.CartPage;
-import pages.LoginPage;
-import pages.ProductPage;
-import util.Constants;
-import util.Retry;
+import org.training.selenium.pages.CartPage;
+import org.training.selenium.pages.LoginPage;
+import org.training.selenium.pages.ProductPage;
+import org.training.selenium.util.Constants;
+import org.training.selenium.util.Retry;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ public class CartTest extends BaseScript {
     ProductPage productPage;
     CartPage cartPage;
     @Test(description = "Validate user is able to add product in the cart",retryAnalyzer = Retry.class)
-    public void validateCartProductAdd() {
+    public void TC01_validateCartProductAdd() {
 
         String productName = Constants.PRODUCT_NAME;
 
@@ -35,5 +35,4 @@ public class CartTest extends BaseScript {
         //Confirm product in cart
         Assert.assertEquals(productName,cartPage.getCartProducts(),"Same product reflects");
     }
-
 }

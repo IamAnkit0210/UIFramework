@@ -3,8 +3,8 @@ package org.training.selenium.tests;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.training.selenium.base.BaseScript;
-import pages.LoginPage;
-import util.Constants;
+import org.training.selenium.pages.LoginPage;
+import org.training.selenium.util.Constants;
 
 public class LoginTest  extends BaseScript {
     LoginPage loginPage;

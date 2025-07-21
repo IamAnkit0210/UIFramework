@@ -1,6 +1,6 @@
-package pages;
+package org.training.selenium.pages;
 
-import util.WaitsUtil;
+import org.training.selenium.util.WaitsUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,7 +25,7 @@ public class ProductPage extends WaitsUtil {
     @FindBy(id = "shopping_cart_container")
     WebElement cartIcon;
 
-    By productsBy = By.xpath("//div[@class='inventory_item_description']");
+    private By productsBy = By.xpath("//div[@class='inventory_item_description']");
 
     public void handleAlert()
     {

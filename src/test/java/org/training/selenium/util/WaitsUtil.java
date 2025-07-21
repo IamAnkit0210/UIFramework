@@ -1,4 +1,4 @@
-package util;
+package org.training.selenium.util;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
